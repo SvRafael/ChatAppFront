@@ -1,5 +1,15 @@
+# ChatApp
 # Vue 3 + TypeScript + Vite
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Este e o front end de um aplicativo de chat, onde voce pode conversar com os demais usuarios que existem no sistema!
+Para iniciar uma conversa basta se cadastrar e fazer o login!
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+*Comando para executar*
+Clone este repositorio
+execute o comando: npm install e npm run dev
+Obs: Para poder utilizar a aplicaçao e necessario que o servidor esteja sendo execurado, segue os passos abaixo...
+
+*Repositorio do servidor: https://github.com/SvRafael/ChatAppBack*
+Clone o repositorio do servidor
+execute o comando: npm install e nodemon
+
