@@ -23,6 +23,7 @@ export const useUserStore = defineStore('user', {
   actions: {
     addUser(user_param:Object) {
       this.user = user_param
+      localStorage.setItem('loggedUser', JSON.stringify(user_param));
     },
     addUsers(users_param:Array<Object>){
         this.users = users_param
